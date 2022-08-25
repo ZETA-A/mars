@@ -1,0 +1,19 @@
+.flexDiv {
+    height: 10vh;
+    max-height: 70px;
+    width: 85vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconDiv {
+    width: 20vw;
+    text-align: center;
+}
+
+.icon {
+    min-width: 24px;
+    width: 6vw;
+    max-width: 28px;
+}

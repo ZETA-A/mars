@@ -1,0 +1,42 @@
+.move {
+    animation-name: moveLogo;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    position: absolute;
+    animation-fill-mode: forwards;
+}
+
+.fadeIn {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes moveLogo {
+    0% {
+        top: 200px;
+        scale: 1;
+    }
+    100% {
+        top: 100px;
+        scale: 0.7;
+    }
+}
