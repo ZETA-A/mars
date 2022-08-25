@@ -34,6 +34,7 @@ function Navigation() {
                     <Link
                         to="/directmessage"
                         onClick={() => setSelectPage("directmessage")}
+                        draggable={false}
                     >
                         <div className={styles.iconDiv}>
                             <img
@@ -50,6 +51,7 @@ function Navigation() {
                     <Link
                         to="/notification"
                         onClick={() => setSelectPage("notification")}
+                        draggable={false}
                     >
                         <div className={styles.iconDiv}>
                             <img
@@ -66,6 +68,7 @@ function Navigation() {
                     <Link
                         to="/setting"
                         onClick={() => setSelectPage("setting")}
+                        draggable={false}
                     >
                         <div className={styles.iconDiv}>
                             <img
